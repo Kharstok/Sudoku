@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <a href="index.html">My Software Project</a>
+        <a href="flowchart.html">Flowchart</a>
+        <a href="https://github.com/Kharstok/Research-Repo">Github/Code</a>
+      </nav>
+
+      <h1>Sudoku</h1>
+
+    </header>
+
+    <div class="explanation">
+      <p>For my software project I decided to expand on what I had learnt about 'wave function collapse' and javascript/P5.js during the 'Research Repository' assignment, and apply it in a new way.</p>
+      <p>When reading into wave function collapse and how it worked, oftentimes it was compared to a sudoku, so ive decided to try it for myself</p>
+    </div>
+
+
+    <main>
+      <p>Referesh the page to see a new sudoku generate</p>
+      <p>It may loop a couple times before a final sudoku is generated</p>
+      <script src="sketch.js"></script>
+      <script src="cell.js"></script>
+    </main>
+
+    <div class="description">
+      <p>Im pretty happy with how it turned out, I didnt expect to get so far into its development given the time constraints. You can see in a simplified version of how it works by pressing the "flowchart" button at the top of the page. Otherwise the full code is available on my Github at the top also</p>
+
+      <p>Some things to be added in the future..</p>
+      <ul>
+        <li>A method of looking at neighbouring rows, columns and sections to check if a value choice will eventually trigger redo()</li>
+        <li>Proper styling of grid. Including alternating shading of each section </li>
+        <li>once a grid is made => save that grid => pick a random number of cells => add those cells to a list => for all cells in that list (value = '') => accept input from player and a 'check solution' button</li>
+      </ul>
+    </div>
+
+
+  </body>
+
+
+</html>

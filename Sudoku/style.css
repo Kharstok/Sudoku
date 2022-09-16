@@ -1,0 +1,148 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(48, 84, 29);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: max-content;
+}
+
+ul {
+  margin: 0rem 5rem;
+
+}
+
+li {
+  margin: .5rem 0rem;
+}
+h1 {
+  font-family: 'Titan One', 'Trebuchet MS', sans-serif;
+  font-size: 3.5rem;
+  color: rgb(48, 84, 29);
+}
+
+h2 {
+  font-family: 'Calibri', 'Lucida Sans', sans-serif;
+  font-size: 1.875rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: 'Calibri', 'Lucida Sans', sans-serif;
+  font-size: 1.375rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+body {
+  margin: 0% 3% 0%;
+  padding: 3% 5% 0%;
+  height: 100%;
+  background-color: rgb(112, 153, 70);
+  padding-bottom: 3rem;
+}
+
+script {
+  width: 100vw;
+  align-content: center;
+}
+
+canvas {
+  width: 100%;
+  align-self: center;
+ 
+
+}
+header {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: solid rgb(48, 84, 29);
+}
+
+nav a {
+  padding: 0rem 2rem;
+  text-decoration: none;
+  padding: 0px 50px;
+  color: rgb(48, 84, 29);
+  font-family: 'Titan One', 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: rgb(212, 219, 158);
+  text-decoration: underline;
+}
+
+p {
+  padding-top: 1.5rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+  padding: 1rem;
+  font-style: italic;
+
+}
+
+main {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* ------------------------- */
+/* FlowChart */
+
+div.image {
+  background-color: rgb(152, 189, 115);
+  border-radius: 1rem;
+  border-style: inset;
+  border-width: .4rem;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+
+}
+
+img {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
